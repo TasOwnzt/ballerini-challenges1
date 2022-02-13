@@ -1,0 +1,154 @@
+*, ::after, ::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+	min-width: 320px;
+	width: 100vw;
+	height: 100vh;
+
+	background-color: blueviolet;
+	color: azure;
+	overflow: hidden;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	padding: 1rem;
+}
+
+header h1{
+	flex-grow: 1;
+}
+
+header h2 {
+	flex-grow: 2;
+	padding: 0.5rem;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 2rem;
+}
+
+main button {
+	padding: 0.5rem;
+	margin: 0.5rem;
+	text-align: center;
+	width: 10rem;
+
+	border: 0;
+	border-radius: 3rem;
+	outline: none;
+
+	background: radial-gradient(rgb(196, 7, 32), brown);
+	cursor: pointer;
+}
+
+main button:hover {
+	font-weight: bold;
+	box-shadow: 0 0 1rem rgb(221, 43, 91);
+	color: azure;
+}
+
+div.modal {
+	position: fixed;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .8);
+
+	z-index: 1000;
+}
+
+div.modal #panel {
+	display: block;
+	position: relative;
+	min-width: 260px;
+	width: 80%;
+	height: 80%;
+
+	background-color: black;
+	border-radius: 10px;
+	z-index: 1001;
+}
+
+div.modal #panel button{
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	right: -15px;
+	top: -15px;
+
+	font-weight: bold;
+	border: 0;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	border-radius: 50%;
+	color: azure;
+	background-color: red;
+
+	cursor: pointer;
+	z-index: 1001;
+}
+
+div.modal #panel #close:hover {
+	box-shadow: 0 0 .5rem azure;
+}
+
+div.modal #panel iframe {
+	outline: none;
+	border: 0;
+	border-radius: 10px;
+	width: 100%;
+	height: 100%;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	padding: 2rem;
+}
+
+@media (max-width: 720px) {
+	header {
+		display: block;
+		text-align: center;
+	}
+
+	header h2 {
+		padding: 1.5rem;
+	}
+
+	div.modal #panel {
+		width: 100%;
+		height: 100%;
+		border-radius: 0px;
+	}
+
+	div.modal #panel button{
+		top: 0;
+		right: 0;
+		border-radius: 0 0 0 50%;
+	}
+
+	div.modal #panel iframe{
+		border-radius: 0;
+	}
+}

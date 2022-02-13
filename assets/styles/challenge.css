@@ -1,0 +1,163 @@
+*, ::after, ::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+	min-width: 320px;
+	width: 100vw;
+	height: 100vh;
+	background-color: blueviolet;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+button {
+	width: 11rem;
+	font-weight: bold;
+	padding: 1rem;
+	text-align: center;
+	background: radial-gradient(rgb(196, 7, 32), brown);
+	border: 0;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+button:hover {
+	box-shadow: 0 0 2rem rgb(221, 43, 91);
+	color: azure;
+	filter: brightness(.8);
+}
+
+input {
+	padding: .5rem;
+	margin: .8rem;
+	width: 19rem;
+	outline: 0;
+}
+
+label {
+	padding: 0.5rem;
+	font-weight: bold;
+}
+
+output {
+	padding: 1rem;
+	width: 100%;
+	min-height: 30%;
+	text-align: left;
+	overflow-y: auto;
+}
+
+.error {
+	color: red;
+	font-weight: bold;
+}
+
+.panel {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+
+	text-align: justify;
+
+	width: 90%;
+	height: 90%;
+	max-height: 100%;
+
+	border: 2px solid whitesmoke;
+	color: white;
+	background-color: black;
+	border-radius: 10px;
+
+	box-shadow: 0 0 1rem gray;
+}
+.panel .data {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	padding: 1rem;
+	width: 50%;
+	height: 100%;
+}
+
+
+.panel .data h2 {
+	padding: 1rem;
+	text-align: center;
+	font-weight: bold;
+	width: 100%;
+}
+
+.panel .data .form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+}
+
+.panel .data .form .row {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.panel .data .form textarea {
+	padding: .6rem;
+	text-align: justify;
+	border-radius: 10px;
+	min-width: 80%;
+	min-height: 80%;
+	outline: 0;
+}
+
+.panel .result {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 1rem;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	border-left: 2px solid whitesmoke;
+}
+
+.panel .result h2 {
+	padding: 1rem;
+	width: 100%;
+}
+
+@media (max-width: 720px) {
+	output {
+		min-height: 70%;
+	}
+
+	.panel {
+		flex-direction: column;
+		border: 0;
+		border-radius: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	.panel .data {
+		border-right: 0;
+		height: 50%;
+		width: 100%;
+	}
+
+	.panel .result {
+		height: 50%;
+		width: 100%;
+	}
+}

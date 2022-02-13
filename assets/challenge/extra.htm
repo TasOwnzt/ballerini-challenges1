@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Desafio Extra</title>
+	<link rel="stylesheet" href="../styles/challenge.css">
+</head>
+<body>
+	<div class="panel">
+		<div class="data">
+			<h2>Digite os dados do Usuário</h2>
+			<div role="form" class="form">
+				<div class="row">
+					<label for="nameUser">Nome:</label>
+					<input type="text" name="nameUser" id="nameUser" onchange="challengeExtra(event)">
+				</div>
+				<div class="row">
+					<label for="age">Idade:</label>
+					<input type="text" name="age" id="age" onchange="challengeExtra(event)">
+				</div>
+				<div class="row">
+					<label for="skills">Skills:</label>
+					<input type="text" name="skills" id="skills" onchange="challengeExtra(event)">
+				</div>
+			</div>
+			<button type="button" onclick="registerUser(event)">Cadastrar Usuário</button>
+		</div>
+		<div class="result">
+			<h2>Resultado:</h2>
+			<output>
+			</output>
+		</div>
+	</div>
+	<script src="../script/challenges.js"></script>
+</body>
+</html>
