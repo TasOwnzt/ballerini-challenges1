@@ -10,8 +10,8 @@ body {
 	width: 100vw;
 	height: 100vh;
 
-	background-color: blueviolet;
-	color: azure;
+	background-color: #362b2b;
+	color: #fefbfc;
 	overflow: hidden;
 }
 
@@ -57,7 +57,7 @@ main button {
 main button:hover {
 	font-weight: bold;
 	box-shadow: 0 0 1rem rgb(221, 43, 91);
-	color: azure;
+	color: #fefbfc;
 }
 
 div.modal {
@@ -99,7 +99,7 @@ div.modal #panel button{
 	height: 30px;
 	text-align: center;
 	border-radius: 50%;
-	color: azure;
+	color: #fefbfc;
 	background-color: red;
 
 	cursor: pointer;

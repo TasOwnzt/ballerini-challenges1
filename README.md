@@ -16,9 +16,15 @@ Nesta semana foi definida a linguagem JavaScript para a resolução dos 3 desafi
 
 Esse projeto é uma aplicação Web simples com um conjunto de desafios propostos e implementados utilizando os conceitos de tecnologias base do desenvolvimento Web do qual o usuário poderá escolher qual desefio deseja praticar através de um menu de opções.
 
-![Tela Home](assets\imgs\tela_home.JPG "Tela Home em Desktop")
+<div align="center">
 
-![Tela Home Móvel](assets\imgs\tela_home_móvel.JPG "Tela Home em Dispositivo Móvel")
+![Tela Home](assets\imgs\tela_home.JPG "Tela Home em Desktop")
+(Desktop)
+
+![Tela Home Móvel](assets\imgs\tela_home_móvel.JPG "Tela Home em Dispositivo Móvel") <br>
+Móvel (iPhone SE)
+
+</div>
 
 > Este projeto também se adapta a navegação feita através dispositivos móveis com resolução de tela maiores que 320px.
 

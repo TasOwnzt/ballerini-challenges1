@@ -10,7 +10,7 @@ body {
 	min-width: 320px;
 	width: 100vw;
 	height: 100vh;
-	background-color: blueviolet;
+	background-color: #362b2b;
 
 	display: flex;
 	justify-content: center;
@@ -36,7 +36,11 @@ button:hover {
 }
 
 input {
-	padding: .5rem;
+	background-color: #c7b8b3;
+	border: 0;
+	opacity: .9;
+	border-radius: 5px;
+	padding: .8rem;
 	margin: .8rem;
 	width: 19rem;
 	outline: 0;
@@ -48,6 +52,8 @@ label {
 }
 
 output {
+	color: #e3c57d;
+	font-weight: bold;
 	padding: 1rem;
 	width: 100%;
 	min-height: 30%;
@@ -67,14 +73,15 @@ output {
 	flex-direction: row;
 
 	text-align: justify;
+	font-weight: bolder;
 
 	width: 90%;
-	height: 90%;
+	height: 70%;
 	max-height: 100%;
 
-	border: 2px solid whitesmoke;
-	color: white;
-	background-color: black;
+	border: 2px solid #e6d4c4;
+	color: #e6d4c4;
+	background-color: #4e3939;
 	border-radius: 10px;
 
 	box-shadow: 0 0 1rem gray;
@@ -94,7 +101,7 @@ output {
 	padding: 1rem;
 	text-align: center;
 	font-weight: bold;
-	width: 100%;
+	width: 15rem;
 }
 
 .panel .data .form {
@@ -129,7 +136,7 @@ output {
 	width: 50%;
 	height: 100%;
 	text-align: center;
-	border-left: 2px solid whitesmoke;
+	border-left: 2px solid #e6d4c4;
 }
 
 .panel .result h2 {
