@@ -5,12 +5,12 @@ São desafios semanais propostos por Ballerini onde é escolhida uma linguagem d
  durante a semana e posteriormente publicadas nas redes socais e plataformas como
   forma de aprendizado, treino e enriquecimento de portifólios.
 
-![ ](/assets/imgs/tech_da_semana_-_js.png "Desafio - Tech da Semana")
+![ ](./assets/imgs/tech_da_semana_-_js.png?raw=true "Desafio - Tech da Semana")
 
 Nesta semana foi definida a linguagem JavaScript para a resolução dos 3 desafios simples
  propostos na comunidade da Rafaella Ballerini mais um extra cujo modelo base está no Figma.
 
- ![Desafio Extra](assets\imgs\challenge_extra.png "Desafio Extra")
+ ![Desafio Extra](./assetsimgs/challenge_extra.png?raw=true "Desafio Extra")
 
 ## Sobre
 
@@ -18,10 +18,12 @@ Esse projeto é uma aplicação Web simples com um conjunto de desafios proposto
 
 <div align="center">
 
-![Tela Home](assets\imgs\tela_home.JPG "Tela Home em Desktop")
+![Tela Home](./assets/imgs/tela_home.JPG?raw=true "Tela Home em Desktop")
+
 (Desktop)
 
-![Tela Home Móvel](assets\imgs\tela_home_móvel.JPG "Tela Home em Dispositivo Móvel") <br>
+![Tela Home Móvel](./assets/imgs/tela_home_móvel.JPG?raw=true "Tela Home em Dispositivo Móvel")
+
 Móvel (iPhone SE)
 
 </div>
