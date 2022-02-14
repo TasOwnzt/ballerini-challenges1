@@ -10,7 +10,7 @@ São desafios semanais propostos por Ballerini onde é escolhida uma linguagem d
 Nesta semana foi definida a linguagem JavaScript para a resolução dos 3 desafios simples
  propostos na comunidade da Rafaella Ballerini mais um extra cujo modelo base está no Figma.
 
- ![Desafio Extra](./assetsimgs/challenge_extra.png?raw=true "Desafio Extra")
+ ![Desafio Extra](./assets/imgs/challenge_extra.png?raw=true "Desafio Extra")
 
 ## Sobre
 
